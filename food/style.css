@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: "Noto Sans",sans-serif;
+}
+.navbar.navbar-expand-lg.navbar-light.p-0{
+    margin: 24px;
+}
+
+
+.searching{
+    height: 54px;
+}
+
+main {
+    margin-left: 135px;
+}
+.on{
+    font-family: "Noto Sans" , sans-serif;
+    color: white;
+    border-radius: 27px;
+    background: #494949;
+    border: none;
+    width: 160px;
+    height: 54px;
+
+}
+h1{
+
+    font-family: "Noto Sans",sans-serif;
+    color: #181D19;
+    font-size: 69px;
+    font-weight: 900;
+    margin: 15px;
+}
+span{
+    color: #1e7e34;
+}
+.box-info.d-flex{
+    margin-top: 35px;
+    height: 850px;
+
+}
+.d-flex.flex-column p.ml-lg-3{
+    color: #1d2124;
+    font-size: 24px;
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 750;
+    line-height: 34px;
+}
+.gr{
+    width: 200px;
+    height: 64px;
+    border-radius: 50px;
+    font-family: "Noto Sans",sans-serif;
+    color:white;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    border: none;
+
+}
+.position-relative{
+    width: 755px;
+    height: 700px;
+}
+.position-absolute {
+    top: -35px;
+    right: 0;
+    left: -34px;
+    bottom: 0px;
+}
+.why_us{
+    height: 720px;
+}
+h3{
+    font-size: 54px;
+}
+main .why_us .text-why h2{
+    color: #151414;
+    font-size: 54px;
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 770;
+}
+main .why_us .text-why p{
+    margin-top: 15px;
+    color: #3B433E;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 750;
+    margin-bottom: 62px;
+}
+.reasons{
+    margin: 0px auto;
+    width: 1010px;
+    height: 245px;
+}
+.reason{
+    width: 245px;
+}
+.explain .smallest{
+    text-align: center;
+    font-size: 16px;
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 750;
+    line-height: 28px;
+}
+.numbers{
+    margin: 0px auto;
+    width: 701px;
+    height: 100px;
+}
+.statistics{
+    width: 133.33px;
+}
+.about_us{
+    width: 1235px;
+    height: 722px;
+    column-gap: 95px;
+}
+.about_us p,p{
+    color: #1d2124;
+    font-size: 24px;
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 750;
+    line-height: 34px;
+}
+.two{
+    row-gap: 20px;
+}
+.pictures{
+    column-gap: 20px;
+}
+.one{
+    top: 35px;
+}
+.fresh_vegetables{
+    width: 1285px;
+    height: 480px;
+    margin-top: 120px;
+    column-gap: 50px;
+
+}
+.best_chief{
+    width: 1248.872px;
+    height: 622.722px;
+    flex-shrink: 0;
+}
+/*.zwei img{*/
+
+/*    height: 800.02px;*/
+/*}*/
+
+/*.searching:nth-child(1) img{*/
+/*    height: 100%;*/
+
+/*}*/
+.text{
+    color: #151414;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 770;
+    margin-top: 204px;
+}
+.stext{
+    color: #3B433E;
+    text-align: center;
+    font-size: 24px;
+    font-family: Sharp Sans No1;
+    font-weight: 750;
+    margin-top: 15px;
+}
