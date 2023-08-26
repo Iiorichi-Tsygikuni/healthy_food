@@ -5,21 +5,23 @@
 html {
     font-family: "Noto Sans", sans-serif;
 }
-
+header{
+    margin: 0 auto;
+}
 .navbar.navbar-expand-lg.navbar-light.p-0 {
     margin: 24px;
 }
 
 
-.searching {
+.searching{
     height: 54px;
 }
 
-main {
-    margin-left: 135px;
+main{
+    margin:0 auto;
 }
 
-.on {
+.on{
     font-family: "Noto Sans", sans-serif;
     color: white;
     border-radius: 27px;
@@ -30,17 +32,19 @@ main {
 
 }
 
-.smallest {
-
+p{
+    margin-left: 15px;
 }
-
-h1 {
+.h1{
 
     font-family: "Noto Sans", sans-serif;
-    color: #181D19;
-    font-size: 69px;
-    font-weight: 900;
+    color:#181D19;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 770;
+    line-height: normal;
     margin: 15px;
+
 
 }
 
@@ -48,16 +52,16 @@ span {
     color: #1e7e34;
 }
 
-.box-info.d-flex {
-    margin-top: 35px;
+.box-info.d-flex{
+    margin: 0 auto;
     height: 850px;
-    margin-left: 135px;
+    width: 90%;
 
 }
 
-.d-flex.flex-column p.ml-lg-3 {
+.d-flex.flex-column p.ml-lg-3{
     color: #1d2124;
-    font-size: 24px;
+    font-size: 23px;
     font-family: "Noto Sans", sans-serif;
     font-weight: 750;
     line-height: 34px;
@@ -73,35 +77,36 @@ span {
     border: none;
 
 }
-
-.position-relative {
-    width: 755px;
-    height: 700px;
+.bp{
+    width: 833px;
+    height: 833px;
 }
 
-.position-absolute {
-    top: -35px;
-    right: 0;
-    left: -34px;
-    bottom: 0px;
-}
+/*.position-relative {*/
+/*    width: 755px;*/
+/*    height: 700px;*/
+/*}*/
 
-.why_us {
-    height: 720px;
-}
+/*.position-absolute {*/
+/*    top: -35px;*/
+/*    right: 0;*/
+/*    left: -34px;*/
+/*    bottom: 0px;*/
+/*}*/
 
-h3 {
+
+h3{
     font-size: 54px;
 }
 
-main .why_us .text-why h2 {
+main .why_us .text-why h2{
     color: #151414;
     font-size: 54px;
     font-family: "Noto Sans", sans-serif;
     font-weight: 770;
 }
 
-main .why_us .text-why p {
+main .why_us .text-why p{
     margin-top: 15px;
     color: #3B433E;
     text-align: center;
@@ -112,7 +117,7 @@ main .why_us .text-why p {
 }
 
 .reasons {
-    margin: 0px auto;
+    margin: 0 auto;
     width: 1010px;
     height: 245px;
 }
@@ -130,16 +135,17 @@ main .why_us .text-why p {
 }
 
 .numbers {
-    margin: 0px auto;
-    width: 701px;
+    margin: 0 auto;
+    width:60%;
     height: 100px;
+    column-gap: 50px;
 }
 
 .statistics {
     width: 133.33px;
 }
 
-.about_us {
+.about_us{
     width: 1235px;
     height: 722px;
     column-gap: 95px;
@@ -174,9 +180,7 @@ p{
 }
 
 .best_chief {
-    width: 1248.872px;
-    height: 622.722px;
-    flex-shrink: 0;
+    width: 90%;
 }
 
 /*.zwei img{*/
@@ -200,13 +204,13 @@ p{
     color: #3B433E;
     text-align: center;
     font-size: 24px;
-    font-family: Sharp Sans No1;
+    font-family:"Noto Sans", sans-serif;
     font-weight: 750;
     margin-top: 15px;
 }
 
 .card-deck {
-    width: 1170px;
+    width: 90%;
     margin: 60px auto;
 }
 
@@ -224,13 +228,12 @@ p{
     height: 250px;
 }
 
-.clients {
+.clients{
     margin-top: 120px;
     background: #FCFCFC;
 }
 
 .clients {
-    height: 900px;
 }
 
 .comments {
@@ -249,7 +252,7 @@ p{
 .slide{
     width: 400px;
     height: 120px;
-    margin: 0px auto;
+    margin: 0 auto;
     background-color: #FCFCFC;
 }
 
@@ -301,8 +304,9 @@ footer{
 .about_us,.fresh_vegetables,.best_chief{
     margin: 120px auto;
 }
+
 .row{
-    width: 1440px;
+    width: 100%;
     height: 90%;
 }
 .panel{
@@ -311,5 +315,119 @@ footer{
 }
 .row .col-4 .smallest{
     text-align: left;
+}
+@media (max-width:1280px) {
+    h1{
+        font-size: 50px;
+    }
+    .bp{
+        width: 680px;
+        height: 680px;
+    }
+    .d-flex.flex-column p.ml-lg-3,p{
+        font-size: 21px;
+        margin-left: 15px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    .numbers{
+        width: 60%;
+        column-gap: 35px;
+    }
+    main .why_us .text-why p{
+        font-size: 21px;
+    }
+    .why_us{
+        margin-top: 50px;
+    }
+    .about_us{
+        width: 90%;
+        column-gap: 35px;
+    }
+    .about_us p{
+        font-size: 21px;
+    }
+    .pictures{
+        column-gap: 25px;
+    }
+    .pictures {
+        width: 233px;
+        height: 240px;
+    }
+    .pictures .one {
+        width: 253px;
+        height: 610px;
+    }
+    .fresh_vegetables{
+        width: 80%;
+    }
+    .fresh_vegetables img{
+        width: 460px;
+        height: 395px;
+    }
+    .about_us{
+        margin-top: 120px;
+        margin-left: 50px;
+    }
+    .best_chief .picture img
+    {
+        width: 500px;
+        height: 435px;
+    }
+    .best_chief p{
+        font-size: 17px;
+    }
+    .slide{
+        width: 350px;
+        height: 70px;
+        margin-bottom: 135px;
+    }
+    .check{
+        font-size: 14px;
+    }
+}
+@media(max-width:768px) {
+    a.navbar-brand{
+        font-size: 15px;
+    }
+    .nav-item .nav-link{
+        font-size: 14px;
+    }
+    .h1{
+        width: 270px;
+        font-size:40px;
+    }
+    .bp{
+        margin-top: 50px;
+        width: 350px;
+        height: 350px;
+    }
+    button,.on{
+        width: 100px;
+        height: 35px;
+    }
+    .gr{
+        width: 150px;
+    }
+    h3{
+        font-size: 35px;
+    }
+    p{
+        font-size: 16px;
+        margin: 15px;
+    }
+    .reasons{
+        width: 100%;
+    }
+    .reason img{
+        width: 75px;
+        height: 75px;
+    }
+    h4{
+        font-size: 17px;
+    }
+
+
 }
 
